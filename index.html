@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>piedra papel o tijera</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<!--titulo-->
+    <header>
+        <h1>Piedra, Papel o Tijera</h1>
+    </header>
+<!--contador participantes-->
+    <div class="barra-score">
+        <div id="etiqueta-usuar" class="contador">Usuar</div>
+        <div id="etiqueta-compu" class="contador">Compu</div>
+        <span id="score-usuar">0</span>:<span id="score-compu">0</span>
+    </div>
+<!--frase que cambia y coloca el resultado de la eleccion-->
+    <div class="resultado">
+        <p>Elige una opcion!</p>
+    </div>
+<!--div con imagenes y eleccion del usuario-->
+    <div class="elecciones">
+        <div class="eleccion" id="pi">
+            <img src="imag/piedra.png" alt="">
+        </div>
+        <div class="eleccion" id="pa">
+            <img src="imag/papel.png" alt="">
+        </div>
+        <div class="eleccion" id="ti">
+            <img src="imag/tijera.png" alt="">
+        </div>
+    </div>
+<!--mensaje-->
+    <p id="mensa-accion">Has tu movimiento!</p>
+
+    <script src="app.js" charset="UTF-8"></script>
+</body>
+</html>
